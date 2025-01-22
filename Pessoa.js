@@ -7,10 +7,10 @@ var Pessoa = /** @class */ (function () {
     }
     Pessoa.prototype.fala = function () {
         if (this.falando === true) {
-            "".concat(this.nome, " est\u00E1 falando");
+            return "".concat(this.nome, " est\u00E1 falando");
         }
         else {
-            "".concat(this.nome, " n\u00E3o est\u00E1 falando");
+            return "".concat(this.nome, " n\u00E3o est\u00E1 falando");
         }
     };
     return Pessoa;
